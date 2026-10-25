@@ -2,12 +2,16 @@
 __pycache__/
 *.py[cod]
 
-# Virtual environment
+# Virtual environments
+.venv/
 venv/
 env/
 
-# Mac OS DS_Store files
+# Raw mortality datasets - do not upload
+/Mortalidade_Geral_2023.csv
+/Mortalidade_Geral_2025.csv
+# Mac OS
 .DS_Store
 
-# Streamlit config
-.streamlit/
+# Streamlit config and secrets
+.streamlit/secrets.toml
